@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppines', sans-serif;
+}
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    background-color: #2F3826;
+    color: white;
+    padding: 0.5% 2%;
+    font-size: small;
+}
+.logo{
+    font-size: larger;
+    color: #2F3826;
+    border: 1px solid #2F3826;
+    padding: 1%;
+}
+.green{
+    color: #2F3826;
+    text-decoration: none;
+}
+.green:hover{
+    color: #2F3826;
+    text-decoration: none;
+}
+.white{
+    color: #ffffff;
+    text-decoration: none;
+}
+.white:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+.btn1{
+    background-color: #ffefcd00;
+    color: #2F3826;
+    border: 1px solid #2F3826;
+    border-radius: 8px;
+    padding: 3%;
+}
+.btn1:hover{
+    background-color: #2F3826;
+    color: white;
+    border: 1px solid #2f382600;
+    border-radius: 8px;
+}
+.btn2{
+    background-color: #2F3826;
+    color: white;
+    border: 1px solid #2f382600;
+    border-radius: 8px;
+    padding: 3%;
+}
+.btn2:hover{
+    background-color: #ffefcd00;
+    color: #2F3826;
+    border: 1px solid #2F3826;
+    border-radius: 8px;
+}
+.btn4{
+    background-color: #E09132;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.btn4:hover{
+    background-color: white;
+    border: 1px solid #E09132;
+    color: #E09132;
+    border-radius: 5px;
+}
+.btn5:hover{
+    background-color: #E09132;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.btn5{
+    background-color: white;
+    border: 1px solid #E09132;
+    color: #E09132;
+    border-radius: 5px;
+}
+.share{
+    list-style-type: none;
+}
+.hr1{
+    border-color: #ffffff;
+}
+.yellow{
+    color: #E09132;
+}
+
+/* navbar */
+.bg{
+    background-image: url(../IMG/Screenshot\ 2023-06-01\ 212553.png);
+    background-size: cover;
+}
+#navbar{
+    background-color: #ffffffb9;
+    color: #FFEFCD;
+    background-size: cover;
+}
+nav{
+    background-color: #ffffffd6;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.363);
+}
+.navbar-nav{
+    padding: 0% 6%;
+}
+.nav-item{
+    margin: 1% 2%;
+    padding: 1% 2%;
+    text-align: center;
+    
+}
+.nav-link{
+    color: #2F3826;
+}
+.nav-link:hover{
+    background-color: #2F3826;
+    border-radius: 5px;
+    color: white;
+}
+.active{
+    background-color: #2F3826;
+    border-radius: 5px;
+    color: white;
+}
+
+/* home */
+#home{
+    padding: 1% 2% 4% 2%;
+    color: #2F3826;
+}
+#home .col-sm-4{
+    padding: 12% 5%;
+}
+
+/* about */
+#about{
+    background-color: #E09132;
+    color: white;
+}
+.profile{
+    background-image: url(../IMG/WhatsApp\ Image\ 2023-06-02\ at\ 00.55.25.jpg);
+    background-size: cover;
+    padding: 50%;
+    margin: 8%;
+    border: 4px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+}
+.shareic:hover{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+/* work */
+#accordion{
+    background-color: white;
+    padding: 4%;
+}
+.image{
+    position: relative;
+}
+.image__img{
+    display: block;
+    width: 100%;
+}
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E09132;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay:hover{
+    opacity: 1;
+}
+.carousel-caption{
+    background-color: #00000085;
+}
+.carousel-inner{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.409);
+    border-radius: 15px;
+}
+
+/* languages */
+.languages{
+    background-color: #ffffff;
+    padding: 4%;
+    text-align: center;
+}
+.languages h3 span{
+    color: #E09132;
+}
+.languages h3 span:hover{
+    color: white;
+}
+.lang:hover{
+    background-color: #E09132;
+    color: white;
+    box-shadow: 5px 5px 5px #e092327b;
+    border-radius: 15px;
+}
+
+/* contact */
+.contact{
+    padding: 2%;
+    background-image: url(../IMG/contact-us-form.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+#contact form{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+}
+.contact-form input{
+    background-color: rgba(255, 255, 255, 0.628);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.contact-form input:focus{
+   box-shadow: 1px 3px 5px rgba(255, 255, 255, 0.737);
+   border: 1px solid white;
+}
+
+/* footer */
+footer{
+    background-color: #2F3826;
+    color: white;
+}
+footer .copyright{
+    font-size: smaller;
+}
+.date, .time{
+    letter-spacing: 1px;
+}
